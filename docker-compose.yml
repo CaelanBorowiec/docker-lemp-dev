@@ -19,9 +19,10 @@ services:
     command: --default-authentication-plugin=mysql_native_password
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: greenroot
-      MYSQL_DATABASE: appdb
-      MYSQL_USER: appdbuser
-      MYSQL_PASSWORD: greendev
+      MYSQL_ROOT_PASSWORD: supersecret
+      MYSQL_DATABASE: homestead
+      MYSQL_USER: homestead
+      MYSQL_PASSWORD: secret
+
     volumes:
     - ./data/mysql:/var/lib/mysql
