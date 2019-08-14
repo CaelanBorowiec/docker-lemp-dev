@@ -1,2 +1,6 @@
 
 data/mysql/
+src/
+data/root/.composer/
+data/root/.ssh/
+data/root/.bash_history
