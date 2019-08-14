@@ -7,6 +7,7 @@ services:
     - "80:80"
     volumes:
     - ./src:/var/www/html
+    - ./data/nginx/sites-available/:/etc/nginx/sites-available/
     links:
     - db
     environment:
