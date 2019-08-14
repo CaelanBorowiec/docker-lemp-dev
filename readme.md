@@ -1,5 +1,5 @@
 
-Docker Compose LEMP stack for generic use
+Docker Compose LEMP stack for generic, Laravel, and Lumen projects
 =
 ## Versions
 * Configured for [Generic](https://github.com/CaelanBorowiec/docker-lemp-dev/tree/generic) projects
