@@ -1,8 +1,8 @@
 Docker Compose LEMP stack for generic use
 =
 ## Versions
-[Generic](https://github.com/CaelanBorowiec/docker-lemp-dev/tree/generic) LEMP stack
-[Laravel](https://github.com/CaelanBorowiec/docker-lemp-dev/tree/laravel) LEMP stack
+* [Generic](https://github.com/CaelanBorowiec/docker-lemp-dev/tree/generic) LEMP stack
+* [Laravel](https://github.com/CaelanBorowiec/docker-lemp-dev/tree/laravel) LEMP stack
 
 ### Services in the stack:
 * L - Linux (Alpine)
