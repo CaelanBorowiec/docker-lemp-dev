@@ -21,6 +21,8 @@ Config files and other data is stored in the **data/** folder:
 * **data/root/.bashrc** formatting and extra commands for the bash shell.
 * **data/root/.firstsetup.sh** some extra packages to install on login.
 * **data/mysql/*** MySQL database files.
+### Laravel
+* **src/.env** Note that if you are using your own .env file, you will need to specify DB_HOST=docker-lemp-dev_db_1 in order to make a connection.
 
 ## Usage:
 
