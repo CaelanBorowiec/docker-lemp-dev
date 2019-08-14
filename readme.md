@@ -24,14 +24,14 @@ Config files and other data is stored in the **data/** folder:
 
 ## Usage:
 
-### Startup
+### Startup containers
 **Report to console:** `docker-compose up`
 **or Headless:** `docker-compose up -d`
 
-### Shutdown
+### Shutdown containers
 `docker-compose stop`
 
-### Remove
+### Remove containers
 `docker-compose down`
 
 ### Connect to Bash
