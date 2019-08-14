@@ -1,4 +1,4 @@
-Docker Compose LEMP stack for Laravel Framework
+Docker Compose LEMP stack for generic use
 =
 ### Services in the stack:
 * L - Linux (Alpine)
@@ -8,6 +8,9 @@ Docker Compose LEMP stack for Laravel Framework
 
 ## Notes:
 This container is built and tested for a Windows Docker host configured for Linux containers.
+
+### MySQL:
+To connect, you will need to specify the host as docker-lemp-dev_db_1, port 3306 (default).
 
 ## Setup:
 1. Clone this repo.
@@ -21,8 +24,6 @@ Config files and other data is stored in the **data/** folder:
 * **data/root/.bashrc** formatting and extra commands for the bash shell.
 * **data/root/.firstsetup.sh** some extra packages to install on login.
 * **data/mysql/*** MySQL database files.
-### Laravel
-* **src/.env** Note that if you are using your own .env file, you will need to specify DB_HOST=docker-lemp-dev_db_1 in order to make a connection.
 
 ## Usage:
 
